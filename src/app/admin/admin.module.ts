@@ -6,6 +6,7 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { ProductoComponent } from './inventario/components/producto/producto.component';
 import { CategoriaComponent } from './inventario/components/categoria/categoria.component';
 import { ClienteComponent } from './components/cliente/cliente.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ClienteComponent } from './components/cliente/cliente.component';
     PerfilComponent,
     ProductoComponent,
     CategoriaComponent,
-    ClienteComponent
+    ClienteComponent,
+    LayoutComponent
   ],
   imports: [
     CommonModule,
